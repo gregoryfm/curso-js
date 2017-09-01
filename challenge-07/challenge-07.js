@@ -23,11 +23,7 @@ Mostre no console o segundo elemento desse último array, criado acima, com a
 frase:
 "O segundo elemento do segundo array é [ELEMENTO]."
 */
-for (var index = 0; index < myArray.length; index++) {
-  if (index === 5) {
-    console.log(`O segundo elemento do segundo array é ${myArray[index][1]}.`)
-  }
-}
+console.log(`O segundo elemento do segundo array é ${myArray[5][1]}.`)
 
 /*
 Mostre no console quantos itens tem o primeiro array criado, com a frase:
